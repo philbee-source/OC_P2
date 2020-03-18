@@ -1,0 +1,114 @@
+/* CV_style.css OSC/parcours 2 */
+
+@font-face 
+{
+    font-family: 'droid_sansregular';
+    src: url('DroidSans-webfont.eot');
+    src: url('DroidSans-webfont.eot?#iefix') format('embedded-opentype'),
+         url('DroidSans-webfont.woff') format('woff'),
+         url('DroidSans-webfont.ttf') format('truetype'),
+         url('DroidSans-webfont.svg#droid_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1, h2, h3
+{
+    font-family: 'droid_sansregular', 'Arial', sans-serif;
+}
+
+.container
+{
+max-width: 960px;
+margin:auto;
+}
+
+#avatar
+{
+    vertical-align: middle;
+    margin-left:30px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    color: #181818;
+   
+}
+
+.bandeau-noir
+{
+    vertical-align: middle;
+    text-align: center;
+    padding-top: 12px;
+    background-color: #404040;
+    color:#feca07;
+    height:60px;
+}
+
+#adresse
+{
+    vertical-align: middle;
+    margin: 20px;
+    padding: 15px;
+    font-size: 1.5em;
+    color: #181818;
+}
+
+#apropostxt
+{
+    vertical-align: middle;
+    margin:20px;
+    text-align: justify;
+    color: #181818;
+    padding-bottom: 140px;
+}
+
+#icon-loisirs
+{
+    padding-top: 10px;
+    
+    color:#feca07
+    height:100px;
+}
+
+.fas
+{
+    margin:20px;
+    color:#feca07;
+}
+
+.fa-camera,.fa-video,.fa-theater-masks
+{
+color: #404040;
+}
+
+#PRENOM
+{
+color: #feca07;
+padding-right: 10px;
+}
+
+#NOM
+{  
+color: #404040;
+}
+
+#DEVEL
+{
+border-bottom: 4px solid #feca07;
+}
+
+#OPPEUR
+{
+color: #404040;
+}
+
+.TITRE
+{
+padding-top: 20px;
+}
+
+.ligneJaune
+{
+margin-bottom:40px;
+border-bottom: 4px solid #feca07;
+}
